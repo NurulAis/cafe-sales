@@ -3,14 +3,14 @@
 - **Deskripsi**: Dataset sintesis yang berisi 10.000 baris mengenai data penjualan di cafe. dataset masih kotor, memiliki missing values dan data yang tidak konsisten
 - **Jumlah Data**: 10.000 baris dan 8 kolom
 - **Fitur Utama**:
-  - `Transaction ID`: [Penjelasan]
-  - `Item`: [Penjelasan]
-  - `Quantity`: [Penjelasan]
-  - `Price Per Unit`: [Penjelasan]
-  - `Total Spent`: [Penjelasan]
-  - `Payment Method`: [Penjelasan]
-  - `Location`: [Penjelasan]
-  - `Transaction Date`: [Penjelasan]
+  - `Transaction ID`: ID trensaksi 
+  - `Item`: jenis item
+  - `Quantity`: jumlah item
+  - `Price Per Unit`: harga item
+  - `Total Spent`: total pengeluaran
+  - `Payment Method`: metode pembayaran yang digunakan
+  - `Location`: lokasi pengunjung 
+  - `Transaction Date`: tanggal dilakukannya transaksi
 
 ## 🛠 **Teknologi yang Digunakan**
 - **Python** (pandas, numpy, matplotlib, seaborn)
